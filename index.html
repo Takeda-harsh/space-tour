@@ -16,15 +16,9 @@
       <a href="index.html"> <img src="./assets/shared/logo.svg"></a>
     </div>
 
-    <img class="menu-open-icon" src="./assets/shared/icon-hamburger.svg">
-    <ul class="mobile-nav">
-      <li><span>00</span> Home</li>
-      <li><span>01</span> Destination</li>
-      <li><span>02</span> Crew</li>
-      <li><span>03</span> Technology</li>
-    </ul>
-
-    
+    <div id="menu-open-icon" class="menu-icon" onclick="toggleMenu()">
+      <img  class="menu-open-icon" src="./assets/shared/icon-hamburger.svg" >
+    </div>
     <ul class="desktop-nav">
       <li><span>00</span> Home</li>
       <li><span>01</span> Destination</li>
@@ -35,7 +29,6 @@
 
   <div class="hero-text">
     <h4>So, you want to travel to</h4>
-    
     <h1>Space</h1>
       
     <p>
@@ -50,7 +43,21 @@
     </button> 
    </div>
   </div>
+
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+    <div id="menu-close-icon" class="menu-icon" style="display: none;" onclick="toggleMenu()">
+      <img class="menu-close-icon" src="./assets/shared/icon-close.svg" >
+    </div>
+    <ul class="mobile-nav">
+      <li><span>00</span> Home</li>
+      <li><span>01</span> Destination</li>
+      <li><span>02</span> Crew</li>
+      <li><span>03</span> Technology</li>
+    </ul>
+  </div>
   
 </section>
+
+<script src="./helpers/navigation.js"></script>
 </body>
 </html>
