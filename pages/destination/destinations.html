@@ -4,32 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon-32x32.png"
-    />
-
-    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="stylesheet" href="../../styles/destinations.css" />
+    <title>Destinations</title>
   </head>
   <body>
     <section>
       <nav class="main-navigation">
         <div class="logo">
-          <a href="index.html"> <img src="./assets/shared/logo.svg" /></a>
+          <a href="../../index.html">
+            <img src="../../assets/shared/logo.svg"
+          /></a>
         </div>
 
         <div id="menu-open-icon" class="menu-icon" onclick="toggleMenu()">
           <img
             class="menu-open-icon"
-            src="./assets/shared/icon-hamburger.svg"
+            src="../../assets/shared/icon-hamburger.svg"
           />
         </div>
         <ul class="desktop-nav">
           <li>
-            <a href="./index.html"><span>00</span> Home</a>
+            <a href="../../index.html"><span>00</span> Home</a>
           </li>
           <li>
             <a href="./pages/destination/destinations.html"
@@ -47,23 +42,40 @@
         </ul>
       </nav>
 
-      <div class="hero-text">
-        <div class="hero-text-details">
-          <h4>So, you want to travel to</h4>
-          <h1>Space</h1>
-
-          <p>
-            Let’s face it; if you want to go to space, you might as well
-            genuinely go to outer space and not hover kind of on the edge of it.
-            Well sit back, and relax because we’ll give you a truly out of this
-            world experience!
-          </p>
+      <div class="container">
+        <h4><span>01</span>Pick your destination</h4>
+        <div class="destination-image-div">
+          <img
+            class="destination-image"
+            src="../../assets/destination/image-moon.png"
+          />
         </div>
 
-        <div class="hero-btn-div">
-          <a href="./pages/destination/destinations.html">
-            <button>Explore</button>
-          </a>
+        <div class="explanation">
+          <div class="destination-names">
+            <div>
+              <h5>MOON</h5>
+            </div>
+            <div>
+              <h5>MARS</h5>
+            </div>
+            <div>
+              <h5>EUROPA</h5>
+            </div>
+            <div>
+              <h5>TITAN</h5>
+            </div>
+          </div>
+
+          <div>
+            <h1>MOON</h1>
+            <p>
+              See our planet as you’ve never seen it before. A perfect relaxing
+              trip away to help regain perspective and come back refreshed.
+              While you’re there, take in some history by visiting the Luna 2
+              and Apollo 11 landing sites.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -74,14 +86,17 @@
           style="display: none"
           onclick="toggleMenu()"
         >
-          <img class="menu-close-icon" src="./assets/shared/icon-close.svg" />
+          <img
+            class="menu-close-icon"
+            src="../../assets/shared/icon-close.svg"
+          />
         </div>
         <ul class="mobile-nav">
           <li>
-            <a href="./index.html"><span>00</span> Home</a>
+            <a href="../../index.html"><span>00</span> Home</a>
           </li>
           <li>
-            <a href="./pages/destination/destinations.html"
+            <a href="../../pages/destination/destinations.html"
               ><span>01</span> Destination</a
             >
           </li>
@@ -97,6 +112,6 @@
       </div>
     </section>
 
-    <script src="./helpers/navigation.js"></script>
+    <script src="../../helpers/navigation.js"></script>
   </body>
 </html>

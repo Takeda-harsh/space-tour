@@ -10,6 +10,11 @@ body {
     margin: 0;
 }
 
+section a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .main-navigation {
     font-family: 'Barlow Condensed', sans-serif;
