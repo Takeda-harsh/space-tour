@@ -3,10 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
     <link rel="stylesheet" href="../../styles/reset.css" />
-    <link rel="stylesheet" href="../../styles/destinations.css" />
+    <link rel="stylesheet" href="../../styles/crew.css" />
     <link rel="stylesheet" href="../../styles/navigation.css" />
-    <title>Destinations</title>
+    <title>Frontend Mentor | Space tourism website</title>
   </head>
   <body>
     <section>
@@ -42,59 +49,7 @@
           </li>
         </ul>
       </nav>
-
-      <div class="container">
-        <div class="destination-header">
-          <h4><span>01</span>Pick your destination</h4>
-          <div class="destination-image-div">
-            <img
-              class="destination-image"
-              id="destinationImage"
-              src="../../assets/destination/image-moon.png"
-              alt="Destination Image"
-            />
-          </div>
-        </div>
-
-        <div class="explanation">
-          <div class="destination-names">
-            <div>
-              <h5 class="destination-name" data-destination="Moon">MOON</h5>
-            </div>
-            <div>
-              <h5 class="destination-name" data-destination="Mars">MARS</h5>
-            </div>
-            <div>
-              <h5 class="destination-name" data-destination="Europa">EUROPA</h5>
-            </div>
-            <div>
-              <h5 class="destination-name" data-destination="Titan">TITAN</h5>
-            </div>
-          </div>
-
-          <div class="destination-div">
-            <h1 id="destination-name">MOON</h1>
-            <p id="destination-description">
-              See our planet as you’ve never seen it before. A perfect relaxing
-              trip away to help regain perspective and come back refreshed.
-              While you’re there, take in some history by visiting the Luna 2
-              and Apollo 11 landing sites.
-            </p>
-          </div>
-          <hr class="separator" />
-          <div class="destination">
-            <div class="distance-text">
-              <h4>AVG. DISTANCE</h4>
-              <h3 id="destination-distance">384,400 KM</h3>
-            </div>
-            <div class="travel-time">
-              <h4>EST. TRAVEL TIME</h4>
-              <h3 id="destination-travel">3 DAYS</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <div class="crew"></div>
       <div class="mobile-nav-overlay" id="mobile-nav-overlay">
         <div
           id="menu-close-icon"
@@ -128,8 +83,6 @@
         </ul>
       </div>
     </section>
-
     <script src="../../helpers/navigation.js"></script>
-    <script src="../../helpers/destination.js"></script>
   </body>
 </html>

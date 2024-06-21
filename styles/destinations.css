@@ -103,6 +103,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 48px;
 }
 
 .container h4 {
@@ -142,6 +143,7 @@ body {
 .destination-names {
   display: flex;
   width: 250px;
+  margin-bottom: 15px;
   justify-content: space-between;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 300;
@@ -164,6 +166,8 @@ body {
 .explanation h1 {
   font-size: 80px;
   font-family: 'Bellefair', sans-serif;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .explanation p {
   font-size: 16px;
@@ -171,14 +175,19 @@ body {
   padding: 0px 24px;
   font-weight: 300;
   line-height: 180%;
-}
-
-.seperator {
-  width: 327px;
-  color: #979797;
   margin-bottom: 24px;
 }
 
+hr {
+  width: 327px;
+  color: #8f8f8f6f;
+  margin-bottom: 24px;
+}
+
+.destination {
+  margin-bottom: 24px;
+  height: 146px;
+}
 .destination h4 {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 14px;
@@ -190,6 +199,19 @@ body {
   font-weight: 300;
   font-size: 28px;
   color: #ffffff;
+}
+
+.distance-text {
+  margin-bottom: 24px;
+}
+.distance-text h4 {
+  margin-bottom: 15px;
+}
+.travel-time {
+  margin-bottom: 24px;
+}
+.travel-time h4 {
+  margin-bottom: 15px;
 }
 
 /* Tablet Styling */
@@ -246,7 +268,7 @@ body {
     line-height: 180%;
     color: #d0d6f9;
   }
-  .seperator {
+  hr {
     width: 514px;
     color: #979797;
   }
