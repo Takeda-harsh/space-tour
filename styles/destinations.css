@@ -275,5 +275,76 @@ body {
 
 /* Desktop styles */
 @media (min-width: 1023px) {
+    body {
+        background: url('../assets/destination/background-destination-desktop.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .destination-header h4{
+        width: 688px;
+        text-align: left;
+    }
     
+    .destination-image-div {
+        width: 539px;
+        height: 734px;
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit:cover;
+    
+    }
+    .destination-image {
+        width: 480px;
+        height: 480px;
+        
+    }
+
+    .destination-header {
+        align-items: flex-start;
+    }
+    .destination-header h4{
+        font-size: 28px;
+    }
+
+    .destination-names {
+        display: flex;
+        width: 314px;
+        justify-content: space-around;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 300;
+        margin-top: 133px;
+    }
+
+    .explanation {
+        justify-content: left;
+        text-align: left;
+        align-items: start;
+    }
+
+    .destination-names {
+        display: flex;
+        width: 314px;
+        justify-content: space-between;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 300;
+    }
+
+    .destination-div p {
+        padding-left: 0;
+    }
+
+    .destination {
+        justify-content: left;
+    }
+    .destination div {
+        margin-right: 80px;
+    }
 }
