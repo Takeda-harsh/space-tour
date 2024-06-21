@@ -121,6 +121,13 @@ body {
     color: #979797;
 }
 
+.destination-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .destination-image-div {
     width: 327px;
     height: 203px;
@@ -146,6 +153,7 @@ body {
 }
 .destination-names h5{
     font-weight: 300;
+    font-size: 14px;
     letter-spacing: 4px;
     cursor: pointer;
 }
@@ -187,4 +195,85 @@ body {
     font-weight: 300;
     font-size: 28px;
     color: #ffffff;
+}
+
+/* Tablet Styling */
+@media (min-width: 767px) {
+    body {
+        background: url('../assets/destination/background-destination-tablet.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.destination-header h4{
+    width: 688px;
+    text-align: left;
+}
+
+.destination-image-div {
+    width: 688px;
+    height: 384px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+
+}
+.destination-image {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.destination-names {
+    display: flex;
+    width: 314px;
+    justify-content: space-around;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+}
+.destination-names h5{
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.destination-div h1 {
+    font-size: 80px;
+    font-weight: 300;
+}
+.destination-div p {
+    width: 514px;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    line-height: 180%;
+    color: #D0D6F9;
+}
+.seperator{
+    width: 514px;
+    color: #979797;
+}
+
+.destination {
+    width: 514px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.distance-text .travel-time h3 {
+    font-size: 28px;
+}
+.distance-text .travel-time h4 {
+    font-size: 14px;
+}
+
+}
+
+/* Desktop styles */
+@media (min-width: 1023px) {
+    
 }
