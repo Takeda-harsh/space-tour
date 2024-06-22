@@ -9,4 +9,95 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+}
+
+.crew {
+  margin-top: 48px;
+  height: 792px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.crew-header-text {
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.crew-header span {
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.169);
+}
+
+.crew-position {
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: 'Bellefair', sans-serif;
+  color: rgba(255, 255, 255, 0.271);
+}
+
+.crew-name {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-family: 'Bellefair', sans-serif;
+  text-transform: uppercase;
+}
+
+.crew-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.position-bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bio {
+  width: 327px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  line-height: 180%;
+  color: #d0d6f9;
+}
+
+.pagination {
+  width: 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.dots {
+  width: 10px;
+  height: 10px;
+  background-color: #ffff;
+  border-radius: 9999px;
+}
+
+.crew-member-div {
+  width: 327px;
+  height: 350px;
+}
+
+.crew-member-image {
+  width: 271.21px;
+  height: 340px;
+  margin-top: 37px;
 }
