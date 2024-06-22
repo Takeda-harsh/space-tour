@@ -101,3 +101,82 @@ body {
   height: 340px;
   margin-top: 37px;
 }
+
+/* Tablet Styling */
+@media (min-width: 767px) {
+  body {
+    background: url('../assets/crew/background-crew-tablet.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .crew {
+    margin-top: 0px;
+    height: 928px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .crew-header {
+    width: 688px;
+  }
+
+  .crew-header-text {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    margin-bottom: 24px;
+  }
+
+  .crew-header span {
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.169);
+  }
+
+  .crew-position {
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Bellefair', sans-serif;
+    color: rgba(255, 255, 255, 0.271);
+  }
+
+  .crew-name {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-family: 'Bellefair', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .crew-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .position-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bio {
+    width: 512px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    line-height: 180%;
+    color: #d0d6f9;
+  }
+}
