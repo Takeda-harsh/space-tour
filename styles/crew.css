@@ -179,4 +179,24 @@ body {
     line-height: 180%;
     color: #d0d6f9;
   }
+
+  .pagination {
+    width: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .crew-member-div {
+    width: 688px;
+    height: 463px;
+    overflow: hidden;
+  }
+
+  .crew-member-image {
+    width: 446.74px;
+    height: 560px;
+    margin-top: 37px;
+  }
 }
